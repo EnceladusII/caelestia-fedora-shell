@@ -21,16 +21,13 @@ https://github.com/user-attachments/assets/0840f496-575c-4ca6-83a8-87bb01a85c5f
 
 > [!NOTE]
 > This repo is for the desktop shell of the caelestia dots. If you want installation instructions
-> for the entire dots, head to [the main repo](https://github.com/caelestia-dots/caelestia) instead.
+> for the entire dots, head to [the main repo](https://github.com/EnceladusII/caelestia-fedora) instead.
 
 ### Package manager
 
 > [!NOTE]
-> If you want to make your own changes/tweaks to the shell do NOT edit the files installed by the AUR
+> If you want to make your own changes/tweaks to the shell do NOT edit the files installed by the installer
 > package. Instead, follow the instructions in the [manual installation section](#manual-installation).
-
-The shell is available from the AUR as `caelestia-shell-git`. You can install it with an AUR helper
-like [`yay`](https://github.com/Jguer/yay) or manually downloading the PKGBUILD and running `makepkg -si`.
 
 ### Manual installation
 
@@ -133,8 +130,6 @@ To set the wallpaper, you can use the command `caelestia wallpaper`. Use `caeles
 the command.
 
 ## Updating
-
-If installed via the AUR package, simply update your system (e.g. using `yay`).
 
 If installed manually, you can update by running `git pull` in `$XDG_CONFIG_HOME/quickshell/caelestia`.
 
